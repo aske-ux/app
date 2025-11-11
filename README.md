@@ -1,6 +1,4 @@
 # blog_flask
-
-#### Video Demo: https://youtu.be/t3SGqwRMO6o
 #### Description:
 
 A responsive blog and blog management software with different user classes, including admin and author sections created using python flask and bootstrap.
@@ -424,3 +422,4 @@ This blog was created to be submitted as the author's final project for the CS50
 This is a personal project completed by the author, which you are welcome to use and modify at your discretion. The author, owners and maintainers of this project are not liable for any damages or losses caused by the use of this project. Use this project at your own risk. The owners and maintainers of this project do not provide any warranties or guarantees regarding the reliability, accuracy, or completeness of this project. By using this project, you agree to hold harmless the owners and maintainers of this project from any liability, damages, or losses that may arise from the use of this project.
 
 <div align="right">[ <a href="#table-of-contents">↑ to top ↑</a> ]</div>
+
