@@ -23,8 +23,6 @@ spec:
         volumeMounts:
         - name: data
           mountPath: /app/instance
-        - name: static
-          mountPath: /app/app/static
         resources:
           requests:
             memory: "128Mi"
@@ -34,8 +32,6 @@ spec:
             cpu: "500m"
       volumes:
       - name: data
-        emptyDir: {}
-      - name: static
         emptyDir: {}
 ---
 apiVersion: v1
