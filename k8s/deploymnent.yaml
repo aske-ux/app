@@ -22,7 +22,7 @@ spec:
         - containerPort: 5000
         envFrom:
         - secretRef:
-            name: web-app-secrets
+          name: web-app-secrets
         volumeMounts:
         - name: data
           mountPath: /app/instance
@@ -53,6 +53,3 @@ spec:
     targetPort: 5000
   selector:
     app: web-app
-
-
-
