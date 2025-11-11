@@ -20,6 +20,11 @@ spec:
         image: ghcr.io/aske-ux/app:latest
         ports:
         - containerPort: 5000
+        volumeMounts:
+        - name: data
+          mountPath: /app/instance
+        - name: static
+          mountPath: /app/app/static
         resources:
           requests:
             memory: "128Mi"
