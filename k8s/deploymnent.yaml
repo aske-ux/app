@@ -13,6 +13,8 @@ spec:
       labels:
         app: web-app
     spec:
+      imagePullSecrets:
+      - name: ghcr-secret
       containers:
       - name: web-app
         image: ghcr.io/aske-ux/app:latest
