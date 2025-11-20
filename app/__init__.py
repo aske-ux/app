@@ -2,9 +2,6 @@ from flask import Flask
 import app.extensions as extensions
 from app.config import Config
 import os
-from prometheus_flask_exporter import PrometheusMetrics
-
-metrics = PrometheusMetrics(app, path='/metrics')
 
 def create_app(config_class=Config):
     app = Flask(__name__)
@@ -46,5 +43,6 @@ def create_app(config_class=Config):
     metrics = PrometheusMetrics(app, path='/metrics')
 
     return app
+
 
 
