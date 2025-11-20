@@ -42,5 +42,9 @@ def create_app(config_class=Config):
     def static_path():
         pass
 
+    from prometheus_flask_exporter import PrometheusMetrics
+    metrics = PrometheusMetrics(app, path='/metrics')
+
     return app
+
 
